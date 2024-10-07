@@ -1,0 +1,207 @@
+header{
+    background-color: rgb(2, 2, 15);
+    width: 100%;
+    height: 100px;
+    
+}
+
+.logo{
+    position: absolute;
+    
+
+}
+.logo img{
+    font-family: "Ga Maamli", sans-serif;
+    font-size: 80px;
+    width: 100px;
+    height: 100px;
+    
+}
+.mnav{
+    display: flex;
+    justify-content: flex-start;
+    margin-left:200px;
+    
+  
+
+}
+
+.mnav a{
+    color: goldenrod;
+    text-decoration: none;
+    
+
+}
+.mnav div{
+    margin-top: 40px;
+    
+}
+.mnav div :nth-child(2){
+    margin-left: 30px;
+}
+.mnav div :nth-child(3){
+    margin-left: 30px;
+}
+.search button{
+    color: goldenrod;
+    margin-left: 30px;
+    background-color: black;
+    border: none;
+
+    
+}
+#name{
+    margin-left: -30px;
+  border: none;
+    background: linear-gradient(hsl(180, 13%, 3%), hsl(36, 90%, 60%), hsl(240, 23%, 3%));
+}
+.line{
+    margin-top: 10px;
+    border-bottom: 3px solid goldenrod;
+    width: 1000px;
+}
+.par1{
+    margin: 100px;
+    border: 5px solid goldenrod ;
+    background:linear-gradient(hsl(180, 13%, 3%), hsl(36, 90%, 60%), hsl(240, 23%, 3%));
+}
+.m{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 120px;
+    gap: 100px
+}
+.text{
+    width: 600px;
+}
+.m img{
+    height: 200px;
+}
+.mlast{
+    padding: 250px;
+}
+.fl{
+    position: absolute;
+
+    width: 1000px;
+margin-top: 100px;
+    
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 1000px;
+    background-image: url(./Untitled-design.jpg);
+
+}
+.fl nav{
+    margin-top: 10px;
+}
+.fl nav a{
+    margin: 100px;
+   text-decoration: none;
+   color: goldenrod;
+
+}
+h1{
+    position: absolute;
+    margin-right: 200px;
+    color: goldenrod;
+    font-family: "Yeseva One", serif;
+    font-size: 70px;
+}
+.h{
+    display: flex;
+    justify-content: flex-end;
+    
+    margin: 100px;
+    margin-bottom: 300px;
+}
+body{
+    background-color: rgb(2, 2, 15)  
+}
+.line{
+    margin-top: 10px;
+    border-bottom: 3px solid goldenrod;
+    width: 1000px;
+}
+p{
+    font-family: "Charm", "cursive";
+}
+h2{
+    font-family: "Pirata One", system-ui;
+}
+h1:hover{
+    text-shadow: 10px 10px 10px goldenrod;
+    transform: translate(20px, 20px) scale(1.2);
+}
+.par1:hover{
+    box-shadow: 20px 20px 90px goldenrod;
+    transform: translate(10px);
+    transition: all 1s;
+    border-radius: 50px;
+}
+@media screen and (max-width: 1010px){
+    .line{
+        margin-top: 10px;
+        border-bottom: 3px solid goldenrod;
+        width: 600px;
+    }
+}
+@media screen and (max-width: 1010px) {
+    .fl nav a{
+    
+       color: rgb(17, 6, 51);
+    
+    }
+}
+@media screen and (max-width: 735px){
+
+    footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        gap: 20px;
+        height: 1000px;
+        background-image: url(../page2/Untitled-design.jpg);
+    
+    }
+    
+}
+@media screen and (max-width: 680px) {
+    #name{
+     width: 30px;
+    }
+}
+@media screen and (max-width: 610px){
+    .line{
+        display: none;
+    }
+}
+@media screen and (max-width: 610px){
+    .mnav{
+        
+        margin-left:110px;
+        
+      
+    
+    }
+}
+@media screen and (max-width: 745px){
+    .mlast{
+        padding: 100px;
+    }   
+}
+@media screen and (max-width: 743px){
+    .par1{
+        width: 400px;
+        margin: 10px;
+    }   
+}

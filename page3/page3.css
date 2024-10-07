@@ -1,0 +1,348 @@
+header{
+    background-color: rgb(2, 2, 15);
+    width: 100%;
+    height: 100px;
+    
+}
+
+.logo{
+    position: absolute;
+    
+
+}
+.logo img{
+    font-family: "Ga Maamli", sans-serif;
+    font-size: 80px;
+    width: 100px;
+    height: 100px;
+    
+}
+.mnav{
+    display: flex;
+    justify-content: flex-start;
+    margin-left:200px;
+    
+  
+
+}
+
+.mnav a{
+    color: goldenrod;
+    text-decoration: none;
+    
+
+}
+.mnav div{
+    margin-top: 40px;
+    
+}
+.mnav div :nth-child(2){
+    margin-left: 30px;
+}
+.mnav div :nth-child(3){
+    margin-left: 30px;
+}
+.search button{
+    color: goldenrod;
+    margin-left: 30px;
+    background-color: black;
+    border: none;
+
+    
+}
+#name{
+    margin-left: -30px;
+  border: none;
+    background: linear-gradient(hsl(180, 13%, 3%), hsl(36, 90%, 60%), hsl(240, 23%, 3%));
+}
+.line{
+    margin-top: 10px;
+    border-bottom: 3px solid goldenrod;
+    width: 1000px;
+}
+h1{
+    position: absolute;
+    margin-right: 200px;
+    color: goldenrod;
+    font-family: "Yeseva One", serif;
+    font-size: 70px;
+}
+.h{
+    display: flex;
+    justify-content: flex-end;
+    
+    margin: 100px;
+    margin-bottom: 300px;
+}
+.p1{
+    display: flex;
+    justify-content: flex-start;
+    margin: 100px;
+    
+    margin-right: 100px;
+    
+}
+
+.ph1{
+height: 600px;
+width: 100%;
+
+}
+.ph1 img{
+    height: 600px;
+width: 100%;
+border: 3px solid goldenrod;
+
+}
+.p1 img:hover{
+    border: 10px groove rgb(218, 141, 32) ;
+    transform: translate(10px , 10px) skew(10deg);
+    transition: all 1s;
+}
+.p2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    
+    
+}
+.p4{
+    border: 5px solid goldenrod ;
+    background:linear-gradient(hsl(180, 13%, 3%), hsl(36, 90%, 60%), hsl(240, 23%, 3%));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 100px;
+    gap: 20px;
+    
+}
+.p4 p{
+    width: 400px;
+}
+.p3{
+    border: 5px solid goldenrod ;
+    background:linear-gradient(hsl(180, 13%, 3%), hsl(36, 90%, 60%), hsl(240, 23%, 3%));
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 90px;
+    gap: 30px;
+}
+.p3 p{
+    width: 400px;
+}
+.m{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 120px;
+    gap: 100px
+}
+.text{
+    width: 600px;
+}
+.p5{
+    
+        margin: 100px;
+        border: 5px solid goldenrod ;
+        background:linear-gradient(hsl(180, 13%, 3%), hsl(36, 90%, 60%), hsl(240, 23%, 3%));
+    
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 1000px;
+    background-image: url(../page2/Untitled-design.jpg);
+
+}
+.fl nav{
+    margin-top: 90px;
+}
+.fl nav a{
+    margin: 100px;
+   text-decoration: none;
+   color: goldenrod;
+
+}
+body{
+    background-color: rgb(2, 2, 15)  
+}
+p{
+    font-family: "Charm", "cursive";
+}
+h2{
+    font-family: "Pirata One", system-ui;
+}
+.p4 h2, .p3 h2{
+    margin-top: 40px;
+}
+.p3 h2{
+    margin-top: 60px;
+}
+.p3 p{
+    margin-top: 30px;
+}
+h1:hover{
+    text-shadow: 10px 10px 10px goldenrod;
+    transform: translate(20px, 20px) scale(1.2);
+}
+.k:hover{
+    box-shadow: 20px 20px 90px goldenrod;
+    transform: translate(10px);
+    transition: all 1s;
+    border-radius: 50px;
+}
+@media screen and (max-width: 1365px){
+    .p2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 80px;
+        
+        
+    }
+}
+@media screen and (max-width: 1010px){
+    .line{
+        margin-top: 10px;
+        border-bottom: 3px solid goldenrod;
+        width: 600px;
+    }
+}
+@media screen and (max-width: 1010px) {
+    .fl nav a{
+    
+       color: rgb(17, 6, 51);
+    
+    }
+}
+@media screen and (max-width: 830px){
+    .ph1 img{
+        height: auto;
+    width: 100%;
+    
+    }
+}
+@media screen and (max-width: 735px){
+
+    footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 20px;
+        height: 1000px;
+        background-image: url(../page2/Untitled-design.jpg);
+    
+    }
+    
+}
+@media screen and (max-width: 680px) {
+    #name{
+     width: 30px;
+    }
+}
+@media screen and (max-width: 610px){
+    .line{
+        display: none;
+    }
+}
+@media screen and (max-width: 610px){
+    .mnav{
+        
+        margin-left:110px;
+        
+      
+    
+    }
+}
+@media screen and (max-width: 643px){
+    .p3{
+        
+        width:300px ;
+        
+    }
+    
+}
+@media screen and (max-width: 643px){
+    .p3 p{
+        
+        width:300px ;
+        
+    }
+    
+}
+@media screen and (max-width: 643px){
+    .p4{
+        
+        width:300px ;
+        
+    }
+    
+}
+@media screen and (max-width: 643px){
+    .p4 p{
+        
+        width:300px ;
+        
+    }
+    
+}
+@media screen and (max-width: 643px) {
+    .p5{
+    
+        margin: 100px;
+        border: 5px solid goldenrod ;
+        background:linear-gradient(hsl(180, 3%, 20%), hsl(36, 90%, 60%), hsl(240, 6%, 24%));
+    
+}
+}
+@media screen and (max-width: 643px) {
+    .h{
+        display: flex;
+        justify-content: center;
+        
+        margin: 50px;
+        margin-bottom: 300px;
+    }
+}
+@media screen and (max-width: 530px){
+    .p4{
+        
+        width:200px ;
+        
+    }
+    
+}
+@media screen and (max-width: 530px){
+    .p4 p{
+        
+        width:200px ;
+        
+    }
+    
+}
+@media screen and (max-width: 530px){
+    .p3{
+        
+        width:200px ;
+        
+    }
+    
+}
+@media screen and (max-width: 530px){
+    .p3 p{
+        
+        width:200px ;
+        
+    }
+    
+}
